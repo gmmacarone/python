@@ -49,6 +49,7 @@ class Aplicacion:
             print(us)
             print(pas)
             print(type(self.password))
+            self.window.title(" no CORRECTO ")
     
    
 #main

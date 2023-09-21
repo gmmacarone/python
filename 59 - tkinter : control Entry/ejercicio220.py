@@ -13,10 +13,7 @@ class Aplicacion:
         self.dato=tk.StringVar()
         self.entry1=tk.Entry(self.window, width=10, textvariable=self.dato)
         self.entry1.grid(column=0, row=1)
-        #self.valor="    "
-        #self.label1a=tk.Label(self.window,text=self.valor)
-        #self.label1a.grid(column=0,row=1)
-        #self.label1a.configure(background="red")
+        
 
         
         self.label2=tk.Label(self.window,text="Resultado")
