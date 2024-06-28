@@ -1,0 +1,24 @@
+class Pila:
+    def __init__(self):
+        self.items = []
+
+    def __len__(self):
+        return len(self.items)
+
+    def esta_vacia(self):
+        return len(self.items) == 0
+
+    def apilar(self, item):
+        self.items._____(item)
+
+    def desapilar(self):
+        if self.esta_vacia():
+            return None
+        else:
+            return self.items.___()
+
+    def ver_tope(self):
+        if self.esta_vacia():
+            return None
+        else:
+            return self.items[___]
